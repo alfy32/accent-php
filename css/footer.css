@@ -1,0 +1,34 @@
+@font-face {
+font-family: comic;
+src: url( "../fonts/comic.ttf" );
+}
+.spacer {
+height: 45px;
+}
+footer {
+position: fixed;
+z-index: 1020;
+bottom: -1px; 
+height: 30px;
+width: 100%;
+padding-top: 5px;
+background-color: black;
+font-family: "Comic Sans MS", comic;
+text-align: center;
+color: white;
+}
+footer ul {
+list-style-type: none;
+margin: 0px;
+}
+footer li {
+display: inline;
+padding: 2px;
+}
+footer a {
+text-decoration: none;
+color: white;
+}
+footer a:hover {
+color: grey;
+}

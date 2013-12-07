@@ -1,0 +1,59 @@
+body {
+background-color: white;
+margin :0px;
+}
+header {
+height: 200px;
+width: 100%;
+background-color: black;
+background: black url("../images/logo.jpg") no-repeat top center; 
+}
+div.padding {
+width: 440px;
+padding: 20px;
+margin: auto;
+}
+div.login {
+width: 100%;
+}
+div.login input, label {
+width: 420px;
+padding: 5px 8px;
+border-width: 2px;
+font-size: 30px;
+}
+div.login input.submit {
+float: right;
+width: 200px;
+margin-top: 30px;
+padding: 5px 0px;
+background-color: #2E3436;
+color: white;
+border-radius: 100px;
+border: 0px;
+}
+h4 {
+clear: both;
+width: 440px;
+margin-top: 10px;
+margin-bottom: -10px;
+padding: 5px 0px;
+background-color: #2E3436;
+color: white;
+border-radius: 10px;
+border: 0px;
+text-align: center;
+overflow: hidden;
+}
+span.exit:hover {
+cursor: pointer;
+background-color: grey;
+}
+span.exit {
+background-color: darkgrey;
+float: right;
+height: 100%;
+padding: 5px;
+margin: -5px 0px;
+border-radius: 0px 10px 10px 0px;
+}

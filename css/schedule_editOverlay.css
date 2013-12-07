@@ -1,0 +1,50 @@
+div.editCover {
+position: fixed;
+z-index: 1001;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: url(../images/diagonal.png);
+opacity: .70;
+display: none;
+}
+div.editForm {
+border-radius: 10px;
+border: 4px solid black;
+background-color: white;
+padding: 20px;
+position: fixed;
+z-index: 1002;
+top: 50%;
+margin-top: -180px;
+left: 50%;
+margin-left: -150px;
+font-size: 20px;
+/display: none;
+}
+div.editForm label {
+width: 11ex;
+display: inline-block;
+text-align: right;
+margin: 3px;
+}
+div.editForm h2 {
+margin-top: 0px;
+text-align: center;
+}
+div.editForm p {
+color: red;
+}
+input.edit_submit, input.edit_cancel {
+background-color: black;
+color: white;
+border-radius: 10px;
+border: none;
+padding: 8px 0px;
+width: 100%;
+margin-top: 5px;
+}
+.edit_submit:hover, .edit_cancel:hover {
+background-color: grey;
+}

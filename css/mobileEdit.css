@@ -1,0 +1,57 @@
+@font-face {
+font-family: comic;
+src: url( "../fonts/comic.ttf" );
+}
+
+body {
+width: 320px;
+margin: 0px;
+}
+
+header {
+width: 320px;
+height: 50px;
+background-color: black;
+font-family: comic;
+font-size: 30px;
+text-align: center;
+color: white;
+}
+
+form {
+margin: 10px;
+width: 300px;
+}
+label {
+display: block;
+font-size: 12px;
+margin-top: 3px;
+margin-bottom: 0px;
+}
+input {
+display: block;
+width: 280px;
+margin: 0px;
+padding: 2px 4px;
+border-width: 1px;
+font-size: 18px;
+}
+select {
+width: 300px;
+margin: 0px;
+padding: 2px 5px;
+font-size: 20px;
+}
+
+input.edit_submit, input.edit_cancel {
+background-color: black;
+color: white;
+border-radius: 10px;
+border: none;
+padding: 8px 0px;
+width: 100%;
+margin-top: 5px;
+}
+.edit_submit:hover, .edit_cancel:hover {
+background-color: grey;
+}

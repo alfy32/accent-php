@@ -1,0 +1,71 @@
+body {
+margin: 0px;
+min-width: 1200px;
+}
+header {
+background-color: black;
+height: 80px;
+color: white;
+font-size: 40px;
+font-family: "Comic Sans MS";
+text-align: center;
+vertical-align: middle;
+}
+header p {
+margin: 0px;
+padding-top: 10px;
+}
+div.main {
+display: block;
+margin: auto;
+width: 1200px;
+}
+div.left {
+float: left;
+padding: 20px 0px 20px 20px;
+}
+div.left select {
+width: 200px;
+height: 235px;
+margin-bottom: 5px;
+}
+div.left input {
+width: 200px;
+}
+
+div.center {
+float: left;
+padding: 20px 20px 20px 0px;
+}
+.tableSpacer {
+width: 20px;
+}
+.personal label{
+display: inline-block;
+text-align: right;
+}
+.personal label.zip{
+padding-left: 15px;
+}
+input[name="zip"] {
+float: right;
+}
+input[name="state"], input[name="zip"] {
+display: inline-block;
+width: 50px;
+}
+input[type="submit"] {
+float:right;
+padding: 4px 40px;
+}
+table{ 
+border-collapse: collapse;
+}
+.schedule td, .schedule th {
+padding: 1px 5px;
+width: 100px;
+height: 28px;
+}
+input[type="time"] {
+max-width: 100px;
+}
