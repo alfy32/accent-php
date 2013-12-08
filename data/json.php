@@ -47,14 +47,21 @@ if($start > $end) {
 
 $employee = filter_input(INPUT_GET, 'employee');
 
+if($employee) {
+    $employee = " AND firstName = '$employee' ";
+} else {
+    $employee = '';
+}
+
 $result = $conn->query("
     SELECT date, startTime, endTime, client, firstName employee
     FROM appointment
     JOIN employee 
     ON appointment.employeeId = employee.id
-    WHERE firstName = '$employee' AND
-        date >= '$start' AND
-        date <= '$end'
+    WHERE date >= '$start' AND
+          date <= '$end'
+          $employee
+         
 ");
 
 $rows = array();
